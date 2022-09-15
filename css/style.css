@@ -5,3 +5,16 @@
     list-style: none;
     text-decoration: none;
 }
+.wrap{
+    background: lightgray;
+}
+.block1{
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+.block2{
+    width: 100px;
+    height: 100px;
+    background:  red;
+}
