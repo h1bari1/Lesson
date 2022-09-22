@@ -1,7 +1,118 @@
-*,body,html{
+*,
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+}
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    transition: .5s;
+} */
+
+/* .box:hover{
+    background: green;
+    width: 400px;
+    height: 400px;
+} */
+/* .item {
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+.box:hover .item{
+    background: red;
+} */
+/* .box:active{
+    background: red;
+} */
+/* input:focus{
+    border: 10px solid pink;
+} */
+/* a:visited{
+    color: aqua;
+} */
+.menu ul{
+    font-size: 0;
+}
+.menu-item{
+    display: inline-block;
+  
+}
+.menu-item-link{
+    padding: 25px 20px;
+    background: #000;
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+    transition: .5s;
+    position: relative;
+}
+/* .menu-item:hover .menu-item-link{
+    background: orange;
+} */
+/* .menu-item:first-child .menu-item-link{
+    background: red;
+}
+.menu-item:last-child .menu-item-link{
+    background: green;
+} */
+/* .menu-item:nth-child(2n-1) .menu-item-link{
+    background: green;
+} */
+
+/* .menu-item-link::before{
+    content: 'dsfdf';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+} */
+/* .menu-item-link::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left: 90%;
+    background: url(../images/logo.png) no-repeat;
+    background-size: cover;
+    z-index: 10;
+} */
+/* .menu-item-link::after{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(51, 102, 153);
+    transition: .5s;
+    z-index: 100;
+} */
+.menu-item-link:hover::after{
+    width: 100%;
+}
+.menu-item-link span{
+    position: relative;
+    z-index: 101;
+}
+.menu-item-link::before{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background: rgb(153, 51, 51);
+    transition: .5s;
+    z-index: 100;
+}
+.menu-item-link:hover::before{
+    width: 100%;
 }
