@@ -5,3 +5,22 @@
     list-style: none;
     text-decoration: none;
 }
+.box{
+    height: 700px;
+    /* background-color: #000;
+    background-image: url("../images/1.png"); */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 70%; */
+    /* background-size: 50px; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y;
+    background-position: left; */
+    /* background-position-x: ; */
+    /* background-position-y: ; */
+    /* background:
+    url("../images/1.png") no-repeat center right/50%,
+    url("../images/2.png") no-repeat center left/30%,
+    #369; */
+    
+}
