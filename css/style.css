@@ -88,3 +88,115 @@ header{
     background-size: contain;
     background-position:  right top;
 }
+#bottom-btn{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #E7E7E7;
+    margin-left: 40px;
+    vertical-align: bottom;
+    background: url('../images/arrow-down.svg') no-repeat center;
+    background-size: 50%;
+    cursor: pointer;
+}
+.partners-section{
+    padding: 60px 0;
+}
+.logo-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.subscription-section{
+    padding: 89px 0 55px;
+    border: 1px solid #000;
+}
+.info-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-img img{
+    width: 348px;
+}
+.description-header h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #19191B;
+}
+.description p{
+    font-size: 20px;
+    color: #696871;
+    margin-top: 30px;
+}
+.description-link a{
+    color: #5454D4;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 30px;
+    display: block;
+}
+.info-description{
+    width: 460px;
+}
+.metrics-section{
+    padding: 30px 0;
+}
+.services-item{
+    width: 307px;
+    float: left;
+    text-align: center;
+    margin-right: 49px;
+}
+.services-header{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.services-header h3{
+    font-size: 24px;
+}
+.services-description p{
+    color: #696871;
+    font-size: 16px;
+}
+.clear{
+    clear: both;
+}
+.plan-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan-header{
+    font-size: 60px;
+}
+.plan-section{
+    padding: 150px 0;
+}
+.switch-btn{
+    padding: 5px 6px;
+    background: #F7F7FB;
+    border-radius: 10px;
+    font-size: 0;
+}
+.switch-btn .btn{
+    padding: 17px 56px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.yearly-btn{
+    border-radius: 10px 0 0 10px;
+}
+.monthly-btn{
+    border-radius: 0 10px 10px 0;
+}
+.switch-btn .btn.active-btn{
+    background: #5454D4;
+    color: #fff;
+}
