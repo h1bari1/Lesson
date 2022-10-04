@@ -5,3 +5,67 @@
     list-style: none;
     text-decoration: none;
 }
+/*.wrap{*/
+/*    background: lightcoral;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    align-items: center;*/
+/*    width: 50vw;*/
+/*    height: 50vh;*/
+/*}*/
+/*.item{*/
+/*    !*width: calc(100% - 20px);*!*/
+/*    width: 100vw;*/
+/*    max-width: 200px;*/
+/*    !*height: 100px;*!*/
+/*    min-height: 200px;*/
+/*    background: #000;*/
+/*    margin: 10px;*/
+/*    color: red;*/
+/*}*/
+.main{
+    padding: 15px;
+}
+header{
+    padding: 20px;
+    background: gray;
+    border-radius: 10px;
+    text-align: center;
+}
+nav{
+    margin-top: 10px;
+    padding: 30px;
+    background: lightgreen;
+    border-radius: 10px;
+    text-align: center;
+}
+.wrap{
+    display: flex;
+    margin-top: 10px;
+}
+aside{
+    width: 20%;
+    text-align: center;
+    background: orange;
+}
+.content{
+    width: 50%;
+    margin: 0 10px;
+}
+.side-menu{
+    width: 30%;
+    background: green;
+}
+.content h1{
+    padding: 30px;
+    background: orangered;
+}
+.content-text{
+    background: lightgray;
+    text-align: left;
+    padding: 15px;
+}
+.content-text img{
+    width: 150px;
+    float: left;
+}
