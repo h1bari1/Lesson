@@ -5,3 +5,12 @@
     list-style: none;
     text-decoration: none;
 }
+.btn button{
+    padding: 15px 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn1{
+    background: yellow;
+    padding: 15px 30px; 
+}
