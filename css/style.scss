@@ -104,3 +104,110 @@ header{
         display: inline-block;
     }
 }
+.section-header{
+    @include font(35px,$light-gray,400,$georgia)
+}
+.about-section{
+    padding: 94px 0 100px;
+}
+.about{
+    &-wrap{
+        @include fc();
+        &-image,&-description{
+            flex-basis: 50%;
+        }
+        &-image{
+            text-align: center;
+            img{
+                width: 60%;
+            }
+        }
+        &-description{
+            p{
+                margin-top: 25px;
+                @include font(15px,$color4,400,$arial);
+                line-height: 160%;
+                padding-right: 50px;
+            }
+        }
+    }
+}
+.help-section{
+    padding: 80px 0 100px;
+    .help-header{
+        text-align: center;
+    }
+}
+.shelter-wrap{
+    @include fa();
+    &__item{
+        text-align: center;
+        margin-top: 85px;
+        width: 201px;
+    }
+}
+.pets-section{
+    padding: 80px 0 100px;
+    background: #F6F6F6;
+}
+.pets-header{
+    h2{
+        text-align: center;
+    }
+}
+.pets{
+    margin-top: 60px;
+    padding: 0 105px;
+    position: relative;
+    &-item{
+        width: 270px;
+        // background: #fafafa;
+        background: #fafafa;
+        border-radius: 9px;
+        padding-bottom: 30px;
+        margin: auto;
+        &__name{
+            margin-top: 30px;
+            p{
+                @include font(20px,$light-gray,400,$georgia);
+                text-align: center;
+            }
+        }
+        .btn{
+            text-align: center;
+            margin-top: 30px;
+            a{
+                background: none;
+                border: 2px solid $primary-color;
+            }
+        }
+
+    }
+}
+.slick-prev,.slick-next{
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    transform: translate(-50%);
+    border: none;
+}
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    right: 0;
+
+}
+.slick-prev::after,.slick-next::before{
+    @include pseudo(52px,52px);
+    border-radius: 50%;
+    border: 2px solid $primary-color;
+    background: url('../images/arrow.png') no-repeat center;
+    background-size: 14px;
+    cursor: pointer;
+}
+.slick-next::before{
+    transform:translate(-100%) rotate(180deg);
+}
