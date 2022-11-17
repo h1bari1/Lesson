@@ -1,0 +1,70 @@
+*,body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.menu{
+    background:rgba(51, 102, 153, 0.185);
+    nav{
+        font-size: 0;
+    }
+    &-item{
+        display: inline-block;
+        &:hover{
+            background: rgba(51, 102, 153, 0.4);
+        }
+    }
+    &-item.active{
+        border-bottom: 3px solid #000;
+    }
+    &-link{
+        padding: 10px 20px;
+        display: block;
+        font-size: 25px;
+        color: rgb(31, 24, 5);
+    }
+}
+.breadcrambs{
+    ul{
+        display: flex;
+        margin-top: 50px;
+        // align-items: center;
+    }
+    &-item{
+        margin-right: 26px;
+        position: relative;
+        &:after{
+            content: "";
+            position: absolute;
+            right: -26px;
+            top: 0;
+            width: 21px;
+            height: 47px;
+            background: url(../slash.svg) no-repeat;
+            background-size: cover;
+        }
+       
+        &:last-child::after{
+            background: url(../vector.svg) no-repeat;
+            width: 41px;
+            height: 47px;
+            right: -46px;
+        }
+    }
+    &-link{
+        font-size: 38px;
+        color: #323264;
+        line-height: 44.85px;
+    }
+}
